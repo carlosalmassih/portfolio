@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Selected video editing and videography work.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#111111">
+  <title>Selected Work — Video Portfolio</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="content.js" defer></script><script src="script.js" defer></script>
+</head>
+<body data-page="home">
+<a class="skip" href="#work">Skip to work</a>
+<header class="header wrap">
+  <a class="brand" href="index.html" aria-label="Home"><span class="monogram" data-initials>YN</span><span data-name>Your Name</span><span class="brand-label">/ PORTFOLIO</span></a>
+  <nav aria-label="Main navigation"><a href="portfolio.html">Portfolio</a><a href="side-projects.html">Side Projects</a><a href="index.html#about">About</a><a href="index.html#contact" class="nav-contact">Contact ↗</a><button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">◐</span><span class="theme-label">Dark mode</span></button></nav>
+</header>
+<main>
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero-top"><span class="eyebrow" data-role>Video editor & videographer</span><span class="edition">SELECTED WORK / <span data-year></span></span></div>
+  <h1 id="hero-title">A clear story.<br><span class="blue-text">A considered cut.</span></h1>
+  <div class="hero-bottom"><p data-intro></p><a class="round-link" href="#work"><span>Explore my work</span><span class="circle" aria-hidden="true">↓</span></a></div>
+  <div class="hero-strip"><span>Editing / Videography / Content creation</span><span>CARLOS ALMASSIH</span></div>
+</section>
+<section id="work" class="work wrap" aria-labelledby="work-title">
+  <div class="section-heading"><div><span class="eyebrow">01 / Selected projects</span><h2 id="work-title">The work.</h2></div><p>Reels, edits, and visual stories.</p></div>
+  
+  <div id="projects" class="projects"></div><a class="section-link" href="portfolio.html">View all projects ↗</a>
+</section>
+<section id="photography" class="photo-section wrap"><div class="section-heading"><div><span class="eyebrow">Photography</span><h2>Still stories.</h2></div><a class="text-link" href="portfolio.html?media=photo">View photography ↗</a></div><div class="photo-grid" id="photo-grid"></div><p class="empty-gallery" id="photo-empty">A collection of photographs is on its way.</p></section>
+<section id="about" class="about" aria-labelledby="about-title"><div class="wrap about-grid">
+  <div><span class="eyebrow">02 / Behind the work</span><h2 id="about-title">A little<br><em>about me.</em></h2><span class="location" data-location></span><img class="about-portrait" src="assets/carlos-portrait.jpg" alt="Portrait of Carlos AlMassih" width="1080" height="1088" loading="lazy"></div>
+  <div class="about-copy"><p class="lead" data-about></p><p data-about-second></p><div class="skills" id="skills"></div></div>
+</div></section>
+<section id="experience" class="experience wrap" aria-labelledby="experience-title"><div class="section-heading"><div><span class="eyebrow">03 / The journey</span><h2 id="experience-title">Experience.</h2></div><a id="cv-link" class="text-link" hidden>Download CV ↗</a></div><div id="experience-list"></div></section>
+<section id="contact" class="contact" aria-labelledby="contact-title"><div class="wrap"><span class="eyebrow">04 / Say hello</span><h2 id="contact-title">Have a story<br><em>in mind?</em></h2><div class="contact-bottom"><div><p>Have a story in mind? Let’s talk.</p><a id="email-link" class="email-link" hidden></a><p id="email-placeholder" class="contact-placeholder">Your email goes here</p></div><a class="contact-arrow" id="contact-arrow" aria-label="Send an email" hidden>↗</a></div><a id="phone-link" class="phone-link"></a><div id="socials" class="socials contact-buttons"></div></div></section>
+</main>
+<footer class="wrap"><span>© <span data-year></span> <span data-name>Your Name</span></span><span>Video editing & content creation</span><a href="#">Back to top ↑</a></footer>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><span class="eyebrow">Project details</span><button id="close-dialog" aria-label="Close project">✕</button></div><div id="player"></div><div class="dialog-copy"><p id="dialog-category" class="eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><p id="dialog-credits"></p><p id="dialog-collaborators"></p><p id="dialog-tools"></p><a id="external-video" target="_blank" rel="noopener noreferrer" hidden>Open original video ↗</a></div></dialog>
+<dialog id="photo-dialog" aria-labelledby="photo-caption"><div class="dialog-head"><span class="eyebrow">Photography</span><button id="close-photo" aria-label="Close photograph">✕</button></div><img id="photo-full" alt=""><p id="photo-caption"></p></dialog><noscript><p class="wrap">Please enable JavaScript to view projects and contact details.</p></noscript>
+</body></html>

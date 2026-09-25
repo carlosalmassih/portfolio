@@ -1,0 +1,205 @@
+/* Edit your site content here. See UPDATE_GUIDE.md for examples. */
+window.PORTFOLIO = {
+  "name": "Carlos AlMassih",
+  "initials": "CA",
+  "role": "Video editor & content creator",
+  "location": "Dubai, UAE",
+  "intro": "Video editing, visual stories, and a considered eye behind the camera. Based in Dubai.",
+  "about": "I’m Carlos, a video editor and content creator based in Dubai. My work spans social media reels, graphic design, photography, and event coverage. I like clean edits, natural pacing, and giving the story room to breathe.",
+  "aboutSecond": "Alongside creative work, I support artist, event, and production coordination at The Parliament. I hold a BA in Business Administration from USEK and work in Arabic, English, and French.",
+  "email": "carlos.jalmassih@gmail.com",
+  "phone": "+971 58 221 8419",
+  "instagram": "https://www.instagram.com/carlosalmassih__/",
+  "linkedin": "",
+  "cv": "assets/Carlos_AlMassih_CV_2026.pdf",
+  "skills": [
+    "Premiere Pro",
+    "Photoshop",
+    "Illustrator",
+    "Canva",
+    "AI video creation · Intermediate"
+  ],
+  "experience": [
+    {
+      "role": "Personal Assistant to Management",
+      "company": "The Parliament · Artists, Events & Production",
+      "dates": "Sep 2026 — Present",
+      "description": "Supporting artist bookings, event operations, production schedules, and client communication. Creating photo and video content and maintaining approved digital updates."
+    },
+    {
+      "role": "Video Editor",
+      "company": "NapKin Agency",
+      "dates": "Apr 2026 — Present",
+      "description": "Editing supplied footage into social media reels aligned with client branding, and creating AI-generated videos for client content."
+    },
+    {
+      "role": "Freelance Graphic Designer & Video Editor",
+      "company": "Independent",
+      "dates": "2024 — Sep 2026",
+      "description": "Managing social media accounts and creating graphic and video content for multiple clients."
+    },
+    {
+      "role": "Graphic Designer",
+      "company": "The Parliament · Freelance, part-time",
+      "dates": "May 2024 — Sep 2026",
+      "description": "Designing artist presentations and catalogs for The Parliament’s venue and hotel proposals, tailored to company briefs and branding."
+    },
+    {
+      "role": "Video Editor",
+      "company": "Yawmiyati Mag / Moonlight Productions · Freelance, part-time",
+      "dates": "Jun 2024 — Nov 2024",
+      "description": "Turning scripts into branded social media videos, proofreading copy, and adapting edits to platform formats."
+    },
+    {
+      "role": "Chief of Media",
+      "company": "SNO-GNO St. Catherine’s Group · Volunteer",
+      "dates": "Apr 2023 — Jul 2026",
+      "description": "Managing the social media calendar and creating graphic, photo, and video content while maintaining consistent branding."
+    }
+  ],
+  "projects": [
+    {
+      "title": "PURESTORIES · Episode 1",
+      "category": "edited",
+      "type": "Interview",
+      "description": "Noor tells her story with Pureganic Beauty.",
+      "credits": "Editing, color grading, sound design, motion graphics",
+      "thumbnail": "https://i.ytimg.com/vi/L-pXfFVxywY/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AG2CIACgA-KAgwIABABGEkgXyhlMA8=&rs=AOn4CLB1-xfyayyHwVsWYbXDRGkniYKlcw",
+      "video": "https://www.youtube.com/watch?v=L-pXfFVxywY",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Pureganic Beauty (Through NapKin)",
+      "year": "2026",
+      "tools": "Premiere Pro, After Effects, ChatGPT Work",
+      "collaborators": "Daniel Wheibe (videographer), Joud Jarjoura (Accounts Manager)",
+      "length": "short"
+    },
+    {
+      "title": "PURESTORIES · Episode 2",
+      "category": "edited",
+      "type": "Interview",
+      "description": "A Pureganic customer shares her experience with the product.",
+      "credits": "Editing, color grading, sound design, motion graphics",
+      "thumbnail": "https://i.ytimg.com/vi/nlusCKlEHLY/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBIKDAwDw==&rs=AOn4CLB7TJuW0Jo63e56keJkA1hzeTjbag",
+      "video": "https://www.youtube.com/watch?v=nlusCKlEHLY",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Pureganic Beauty (Through NapKin)",
+      "year": "2026",
+      "tools": "Premiere Pro, After Effects, ChatGPT Work",
+      "collaborators": "Daniel Wheibe (videographer), Joud Jarjoura (Accounts Manager)",
+      "length": "short"
+    },
+    {
+      "title": "Pureganic Serum Promo",
+      "category": "edited",
+      "type": "Product promo",
+      "description": "A Pureganic Beauty serum promotion combining editing, color grading, sound design, motion graphics, AI visuals, and AI voice-over.",
+      "credits": "Editing, color grading, sound design, motion graphics, AI visuals, AI Voice Over",
+      "thumbnail": "https://i.ytimg.com/vi/RX0-VmWDBpE/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBiKCwwDw==&rs=AOn4CLBwDsCzcb8nIaaDV1WzM8CirYbbqg",
+      "video": "https://www.youtube.com/watch?v=RX0-VmWDBpE",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Pureganic Beauty (Through NapKin)",
+      "year": "2026",
+      "tools": "Premiere Pro, After Effects, ChatGPT Work, Seedance 2.5 & Nano Banana Pro (through Magnific.com)",
+      "collaborators": "Daniel Wheibe (videographer), Joud Jarjoura (Accounts Manager)",
+      "length": "short"
+    },
+    {
+      "title": "Almerian Sunsets",
+      "category": "filmed",
+      "type": "Lifestyle",
+      "description": "A short visual showcase of Almeria Beach Lounge & Restaurant.",
+      "credits": "Setup, Filming, Editing, color grading, Posting",
+      "thumbnail": "https://i.ytimg.com/vi/fdIEe1EbMvU/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYRyBTKGUwDw==&rs=AOn4CLB7NAropZZjvbA3Gbs3FkY2ogYEvA",
+      "video": "https://www.youtube.com/watch?v=fdIEe1EbMvU",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Almeria Beach Lounge & Restaurant",
+      "year": "2026",
+      "tools": "Premiere Pro",
+      "collaborators": "",
+      "length": "short"
+    },
+    {
+      "title": "Almerian Drinks Stacked",
+      "category": "filmed",
+      "type": "Lifestyle",
+      "description": "A series of drink shots cut to the rhythm of the music.",
+      "credits": "Setup, filming, editing, color grading, sound design, motion graphics",
+      "thumbnail": "https://i.ytimg.com/vi/6aNiSjrszr8/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBbKFowDw==&rs=AOn4CLA4iXGYpLV-mDi2JToat4IZNnu_sw",
+      "video": "https://www.youtube.com/watch?v=6aNiSjrszr8",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Almeria Beach Lounge & Restaurant",
+      "year": "2026",
+      "tools": "Premiere Pro",
+      "collaborators": "",
+      "length": "short"
+    },
+    {
+      "title": "Almerian Nights",
+      "category": "filmed",
+      "type": "Lifestyle",
+      "description": "A short promotional film capturing the atmosphere of Almeria Beach Lounge & Restaurant.",
+      "credits": "Setup, filming, editing, color grading, sound design",
+      "thumbnail": "https://i.ytimg.com/vi/cXr-TmRAT8w/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AG-B4AC0AWKAgwIABABGHIgUChAMA8=&rs=AOn4CLDWIdgF8Pdx2GZ6r6q0uexb5GHtOw",
+      "video": "https://www.youtube.com/watch?v=cXr-TmRAT8w",
+      "color": "dark",
+      "format": "video",
+      "client": "Almeria Beach Lounge & Restaurant",
+      "year": "2026",
+      "tools": "Premiere Pro",
+      "collaborators": "",
+      "length": "short"
+    },
+    {
+      "title": "Noël by the Sea",
+      "category": "filmed",
+      "type": "Event recap",
+      "description": "A recap of the Christmas tree lighting in Anfeh, Lebanon.",
+      "credits": "Filming, editing, color grading, sound design, custom AI music Jingle",
+      "thumbnail": "https://i.ytimg.com/vi/aeteYdL2xGA/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYPyBPKH8wDw==&rs=AOn4CLCvKBlbwW76G5Q6jIFGucXd55UaLg",
+      "video": "https://www.youtube.com/watch?v=aeteYdL2xGA",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Municipality of Anfeh",
+      "year": "2026",
+      "tools": "Premiere Pro, Suno Music",
+      "collaborators": "Fares Outayek (Second Shooter)",
+      "length": "short"
+    },
+    {
+      "title": "Anfeh Summer Festival · Day 2",
+      "category": "filmed",
+      "type": "Event recap",
+      "description": "A recap of day two of the Municipality of Anfeh Summer Festival.",
+      "credits": "Filming, editing, color grading, sound design, custom AI music Jingle",
+      "thumbnail": "https://i.ytimg.com/vi/cBAvJ1SvUa0/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBIKCgwD6Lzl_8DDgj08dnVBhjg6gQg4KgB&rs=AOn4CLCD9zBFEG2wbdCHGKTwaLE0GW3Epg&usqp=CBU",
+      "video": "https://www.youtube.com/watch?v=cBAvJ1SvUa0",
+      "color": "dark",
+      "format": "vertical",
+      "client": "Municipality of Anfeh",
+      "year": "2025",
+      "tools": "Premiere Pro",
+      "collaborators": "Fares Outayek (Second Shooter)",
+      "length": "short"
+    }
+  ],
+  "whatsapp": "https://wa.me/971582218419",
+  "photos": [],
+  "photoCategories": [
+    "Commercial",
+    "Portraits",
+    "Family",
+    "Events",
+    "Lifestyle",
+    "Travel",
+    "Architecture",
+    "Food & product",
+    "Landscape",
+    "Street"
+  ],
+  "sideProjects": []
+};
