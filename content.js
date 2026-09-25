@@ -59,6 +59,22 @@ window.PORTFOLIO = {
   ],
   "projects": [
     {
+  "title": "SNO GNO Jamboree Ad",
+  "category": "edited",
+  "length": "long",
+  "format": "video",
+  "type": "Commercial Ad",
+  "description": "A very rushed video, requested and delivered within 5 hours, using footage found online and footage taken by myself during camps.",
+  "credits": "Editing, color grading, sound design, research, motion graphics",
+  "client": "SNO GNO",
+  "year": "2024",
+  "tools": "Premiere Pro, After Effects, Canva",
+  "collaborators": "",
+  "thumbnail": "https://i.ytimg.com/vi/tHecI3yJo80/hqdefault.jpg",
+  "video": "https://www.youtube.com/watch?v=tHecI3yJo80&list=PLMUJ9mN066mUSkucBIKHNafXBptliYPNo",
+  "color": "dark"
+},
+    {
       "title": "PURESTORIES · Episode 1",
       "category": "edited",
       "type": "Interview",
