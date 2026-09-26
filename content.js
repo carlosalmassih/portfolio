@@ -86,7 +86,7 @@ window.PORTFOLIO = {
   "year": "2024",
   "tools": "Premiere Pro, Seedance 2.5 & Nano Banana Pro (Through Magnific.com)",
   "collaborators": "Daniel Wheibe (videographer), Joud Jarjoura (Accounts Manager)",
-  "thumbnail": "https://i.ytimg.com/vi/tHecI3yJo80/hqdefault.jpg",
+  "thumbnail": "https://i.ytimg.com/vi/4YgQAq_oHEQ/maxresdefault.jpg",
   "video": "https://youtube.com/shorts/4YgQAq_oHEQ?feature=share",
   "color": "dark"
 },
