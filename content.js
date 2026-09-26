@@ -1,7 +1,7 @@
 /* Edit your site content here. See UPDATE_GUIDE.md for examples. */
 window.PORTFOLIO = {
   "name": "Carlos AlMassih",
-  "initials": "CA",
+  "initials": "CM",
   "role": "Video editor & content creator",
   "location": "Dubai, UAE",
   "intro": "Video editing, visual stories, and a considered eye behind the camera. Based in Dubai.",
@@ -74,6 +74,23 @@ window.PORTFOLIO = {
   "video": "https://www.youtube.com/watch?v=tHecI3yJo80&list=PLMUJ9mN066mUSkucBIKHNafXBptliYPNo",
   "color": "dark"
 },
+
+     {
+  "title": "RTD AI Character",
+  "category": "edited",
+  "length": "short",
+  "format": "video",
+  "type": "Scripted AD",
+  "description": "A follow up for a previous video, showcasing the aftermath of a breakup between the Product (AI Character) and business owner, after the owner failed to take care of product delivery.",
+  "client": "RTD (Through NapKin)",
+  "year": "2024",
+  "tools": "Premiere Pro, Seedance 2.5 & Nano Banana Pro (Through Magnific.com)",
+  "collaborators": "Daniel Wheibe (videographer), Joud Jarjoura (Accounts Manager)",
+  "thumbnail": "https://i.ytimg.com/vi/tHecI3yJo80/hqdefault.jpg",
+  "video": "https://youtube.com/shorts/4YgQAq_oHEQ?feature=share",
+  "color": "dark"
+},
+    
     {
       "title": "PURESTORIES · Episode 1",
       "category": "edited",
