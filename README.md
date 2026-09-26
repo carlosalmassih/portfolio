@@ -1,3 +1,5 @@
+Blog added: see BLOG_GUIDE.md for publishing, shared photo references, and management options.
+
 # Three-page portfolio update
 
 Start with UPDATE_GUIDE.md for step-by-step GitHub editing, photo hosting, and adding new videos/photos.

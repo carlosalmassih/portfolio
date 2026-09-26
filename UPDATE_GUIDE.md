@@ -1,3 +1,5 @@
+Blog added: see BLOG_GUIDE.md for publishing, shared photo references, and management options.
+
 # Updating Carlos AlMassih’s portfolio
 
 ## What is included
