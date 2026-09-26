@@ -1,6 +1,6 @@
 # Your blog
 
-The new Blog link opens blog.html. Individual stories use post.html?post=your-slug.
+The new Blog link opens blog/. Individual stories use blog/your-slug/.
 The home page shows your three latest published stories. Categories come from your posts.
 The blog is empty until you add a post; no sample stories are published.
 
@@ -65,6 +65,19 @@ Set published: false to hide a post from the website. This is NOT private storag
 
 Use plain text in paragraphs, headings, quotes, and captions. HTML and Markdown are not rendered. Escape a double quote inside double-quoted text as \" or use single quotes around that text.
 
+## 2b. Create the story URL (once per new post)
+
+For every new post, create its folder page so refreshing or sharing the clean URL works:
+
+1. Open POST_TEMPLATE.txt in your repository and copy its complete contents.
+2. From the repository root, choose Add file > Create new file.
+3. Name it blog/anfeh-at-sunset/index.html, replacing anfeh-at-sunset with the exact slug in blog-content.js.
+4. Paste the template unchanged, then commit.
+
+The page reads its slug from its own URL and loads the matching published post. All stories use the same template. You do NOT need to repeat this when editing an existing story. Slugs must use lowercase letters, numbers, and hyphens. Keep them unique and unchanged after sharing links.
+
+To preview locally, use a local HTTP server (for example python3 -m http.server), not double-clicked file URLs.
+
 ## 3. Reuse photos
 
 cover: { photoId: "sunset-anfeh-01" } looks up that photo in content.js. A photo block works the same way. There is no second upload and no second image URL to maintain. Change its src once in content.js and every reference follows it. Do not delete a photo still referenced by posts; missing references show a neutral placeholder.
@@ -104,7 +117,7 @@ This version remains a static GitHub Pages site. It does not include an admin lo
 - A custom mailbox needs your own domain and an email provider. WordPress.com offers Professional Email or Google Workspace separately from hosting. https://wordpress.com/support/add-email/
 - Earning from display ads is Google AdSense; paying to promote your services is Google Ads. Ads require their own setup and eligibility review. No ad scripts are included. https://wordpress.com/support/monetize-your-site/
 
-The blog is rendered with JavaScript. Social preview bots may only see the generic HTML metadata, rather than each post's generated title and cover. If search traffic and rich social previews become important, generate separate static HTML files per post or migrate to a CMS/static-site generator.
+The blog is rendered with JavaScript. Social preview bots may only see the generic HTML metadata, rather than each post's generated title and cover. The new folder pages provide direct working URLs; their content and metadata still load with JavaScript. For rich social previews, pre-render the post content and metadata or move to a static-site generator/CMS.
 
 ## Fonts and palette
 

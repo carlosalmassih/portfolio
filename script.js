@@ -6,7 +6,7 @@
 
   const set = (selector, text) => document.querySelectorAll(selector).forEach(el => el.textContent = text);
   const make = (tag, cls, text) => { const el = document.createElement(tag); if (cls) el.className = cls; if (text) el.textContent = text; return el; };
-  const safeUrl = value => { try { const u = new URL(value, location.href); return ['https:', 'http:', 'file:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
+  const safeUrl = value => { try { const u = new URL(value, document.baseURI); return ['https:', 'http:', 'file:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
   set('[data-name]', c.name); set('[data-initials]', c.initials); set('[data-role]', c.role); set('[data-year]', new Date().getFullYear()); set('[data-intro]', c.intro); set('[data-about]', c.about); set('[data-about-second]', c.aboutSecond); set('[data-location]', c.location);
   document.title = `${c.name} — ${document.body.dataset.page === 'side-projects' ? 'Side Projects' : document.body.dataset.page === 'portfolio' ? 'Portfolio' : c.role}`;
   document.querySelector('meta[name="description"]').content = `${c.name}. ${c.intro}`;
@@ -43,7 +43,7 @@
   let medium=new URLSearchParams(location.search).get('media')==='photo' ? 'photo' : 'video', photoCategory='all';
   const photos=c.photos || [];
   const photoType=p=>p.collection || p.category || 'Other';
-  document.querySelectorAll('nav a').forEach(a => { if(a.getAttribute('href') === page + '.html') a.setAttribute('aria-current','page'); });
+  document.querySelectorAll('nav a').forEach(a => { if(a.getAttribute('href') === page + '/') a.setAttribute('aria-current','page'); });
   const selected = id => document.querySelector('#'+id)?.value || 'all';
   function render() {
     const grid = document.querySelector('#projects'); if(!grid) return; grid.replaceChildren();

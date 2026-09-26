@@ -4,8 +4,8 @@ Blog added: see BLOG_GUIDE.md for publishing, shared photo references, and manag
 
 ## What is included
 - index.html: landing page, four featured videos, up to three featured photos, bio, experience and contact.
-- portfolio.html: Video / Photo switch, video format/type/role filters, photo category buttons, and sorting.
-- side-projects.html: graphic design and music explorations.
+- portfolio/: Video / Photo switch, video format/type/role filters, photo category buttons, and sorting.
+- side-projects/: graphic design and music explorations.
 - theme.js: light/dark preference and the header switch.
 - content.js: all editable text, project entries and photo entries.
 - style.css and script.js: design and behavior. Normally leave these alone.
@@ -100,7 +100,7 @@ Replace it with your entries. For example, after uploading these two photos:
 ]
 ```
 
-The first three images appear in the homepage photography section. All images appear in the Photo view on portfolio.html. Collection filters appear automatically. Photos retain their original colors and proportions. Clicking a photo opens the larger view; Escape closes it. For a separate higher-resolution view, add an optional full field containing its path. Otherwise src is used for both views.
+The first three images appear in the homepage photography section. All images appear in the Photo view on portfolio/. Collection filters appear automatically. Photos retain their original colors and proportions. Clicking a photo opens the larger view; Escape closes it. For a separate higher-resolution view, add an optional full field containing its path. Otherwise src is used for both views.
 
 No photographs have been supplied yet, so the current gallery has an honest “on its way” state rather than sample photos presented as your work.
 
@@ -120,7 +120,7 @@ Official references:
 - Pages limits: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
 
 ## New: combined portfolio and photo categories
-The Portfolio page opens on Video. Use the Video / Photo buttons to switch media. Photo reveals category buttons; Video reveals format, project type and role controls. There is no All work button or separate photography page. The homepage View photography link opens portfolio.html?media=photo.
+The Portfolio page opens on Video. Use the Video / Photo buttons to switch media. Photo reveals category buttons; Video reveals format, project type and role controls. There is no All work button or separate photography page. The homepage View photography link opens portfolio/?media=photo.
 
 The available photo categories are Commercial, Portraits, Family, Events, Lifestyle, Travel, Architecture, Food & product, Landscape, and Street. Edit photoCategories in content.js to rename or add categories. Use exactly the same spelling in each photo's collection field. New collection names also appear automatically.
 
@@ -169,7 +169,7 @@ Example (replace with the actual delivery URL copied from your account):
 Cloudinary instructions: https://cloudinary.com/documentation/media_library_for_developers
 
 ## New: Side Projects — graphic design and music
-side-projects.html is deliberately presented as occasional creative exploration, alongside your main video work. Find sideProjects: [] in content.js and add objects like these:
+side-projects/ is deliberately presented as occasional creative exploration, alongside your main video work. Find sideProjects: [] in content.js and add objects like these:
 
 ```js
 "sideProjects": [
@@ -209,6 +209,6 @@ Yes. Send the repository/site URL, requested changes, and any new assets. With a
 
 
 ## Installing this layout update
-Upload the updated HTML, CSS and JavaScript files, including the NEW theme.js. Delete the old photography.html file from your GitHub repository: uploading an updated ZIP’s contents does not remove old files automatically. All current photography links point to portfolio.html?media=photo.
+Upload the updated HTML, CSS and JavaScript files, including the NEW theme.js. Delete the old photography.html file from your GitHub repository: uploading an updated ZIP’s contents does not remove old files automatically. All current photography links point to portfolio/?media=photo.
 
 The theme switch initially follows the device light/dark preference and remembers your manual choice in the browser. The title’s mouse-reactive glow and gentle movement run only with a fine pointer and no reduced-motion preference. Touch screens keep the static title.

@@ -4,7 +4,7 @@ Blog added: see BLOG_GUIDE.md for publishing, shared photo references, and manag
 
 Start with UPDATE_GUIDE.md for step-by-step GitHub editing, photo hosting, and adding new videos/photos.
 
-Pages: index.html (home), portfolio.html (videos and photos), side-projects.html (design and music).
+Pages: index.html (home), portfolio/ (videos and photos), side-projects/ (design and music).
 All eight current videos are short form; long form shows an empty state until longer work is added. No photography files have been supplied yet.
 
 # Carlos AlMassih — Portfolio
